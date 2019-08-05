@@ -21,4 +21,4 @@ end
 
 def find_the_cheese(snacks)
   if snack
-end 
+end
