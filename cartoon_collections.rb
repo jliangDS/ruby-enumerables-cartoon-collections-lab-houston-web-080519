@@ -21,11 +21,11 @@ end
 
 def find_the_cheese(snacks)
   if snacks.include?("gouda")
-    return true
+    return "gouda"
   else if snacks.include?("cheddar")
-    return true
+    return "cheddar"
   else
     return nil
   end
 end
-end  
+end
