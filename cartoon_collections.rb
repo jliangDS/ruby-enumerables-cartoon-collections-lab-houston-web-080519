@@ -20,5 +20,12 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(snacks)
-  if snack
+  if snacks.include?("gouda")
+    return true
+  else if snacks.include?("cheddar")
+    return true
+  else
+    return nil
+  end
 end
+end  
