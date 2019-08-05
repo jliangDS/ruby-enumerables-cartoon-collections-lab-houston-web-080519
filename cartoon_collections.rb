@@ -12,9 +12,9 @@ end
 
 def long_planeteer_calls(calls)
   calls.each_with_index { |item, index|
-    if item.length > 4
-      return true
-    else
-      return false
+    if item.length > 4 
+      return true 
+    end 
   }
+  return false 
 end
