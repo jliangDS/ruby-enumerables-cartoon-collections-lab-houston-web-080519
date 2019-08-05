@@ -4,5 +4,5 @@ def roll_call_dwarves(dwarves)
   hash[item] = index
 
 }
-hash 
 end
+hash 
